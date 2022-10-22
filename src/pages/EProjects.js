@@ -44,7 +44,6 @@ const EProjects = ({ emp }) => {
             <p>
               {
                 projects.filter((e) => {
-                  console.log(e["id"] == proj);
                   return e["id"] == proj;
                 })[0].project_name
               }

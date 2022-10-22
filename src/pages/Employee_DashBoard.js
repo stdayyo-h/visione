@@ -17,7 +17,6 @@ const Employee_DashBoard = () => {
     let data = await response.json();
     setEmployee(data);
 
-    // console.log("data",data);
   };
   return (
     <div>
@@ -26,12 +25,7 @@ const Employee_DashBoard = () => {
         <ProfileCard emp={employee[0]} />
 
         <div className="p-2 w-full">
-          {/* <Link to={USER_PROJECTS}>
-            
 
-
-            <ECard  title={"view My Projects"}></ECard>            
-            </Link> */}
 
           <EProjects emp={employee[0]} />
         </div>
