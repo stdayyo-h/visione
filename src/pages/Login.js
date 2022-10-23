@@ -21,7 +21,7 @@ const Login = () => {
     <div className="flex flex-col justify-center items-center w-full min-h-screen">
       <div class="p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
         <form class="space-y-6" action="#">
-          <h5 class="text-xl font-medium text-gray-900 dark:text-white">
+          <h5 class="text-xl font-medium text-gray-800 dark:text-white">
             Sign in to our platform
           </h5>
           <div>
@@ -35,7 +35,7 @@ const Login = () => {
               type="email"
               name="email"
               id="email"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+              class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
               placeholder="name@company.com"
               required=""
             />

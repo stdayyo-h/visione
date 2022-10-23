@@ -75,7 +75,7 @@ const Home = () => {
         </a>
 
         <div class="modal " id="my-modal-2">
-          <div class="modal-box bg-white text-gray-500">
+          <div class="modal-box bg-white text-gray-600">
             <h3 class="font-bold text-lg">
               Congratulations start enjoying our services!
             </h3>
@@ -84,7 +84,7 @@ const Home = () => {
               subscription to use Ergo for free!
             </p>
             <div class="modal-action">
-              <a href="#" class="btn bg-indigo-700 text-white">
+              <a href="#" class="btn bg-indigo-600 text-white">
                 Yay!
               </a>
             </div>
